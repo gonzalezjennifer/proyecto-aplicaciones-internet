@@ -7,12 +7,24 @@ body {
 .principal {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     flex-wrap: nowrap;
 }
 
+.card {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgStyle {
+  width: 145px!important;
+  height: 145px!important;
+}
+
 .menu {
-    width: 20%;
+    width: 20vw;
     height: 100vh;
     background-color: #a8c9ab;
     display: flex;
@@ -24,14 +36,77 @@ body {
 }
 
 .contenedor {
-    width: 80%;
+    width: 80vw;
+    max-width: 80%;
     height: 92vh;
-    background-color: rgb(255, 213, 220);
+    background-color: #EDF1D6;
+}
+
+.cardStyle {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.teamname {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.receivesnum {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.touchdownnum{
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.passyards {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.completions {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.wins {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.losses {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.winrateper {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.yardsnum {
+  font-family: 'Quicksand', sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
 }
 
 .buscador {
-    width: 100%;
-    height: 8%;
+    width: 80vw;
+    max-width: 100%;
+    height: 5vh;
     background-color: #a8c9ab;
     display: flex;
     align-items: center;
@@ -40,8 +115,9 @@ body {
 
 .inputBuscador {
     background: whitesmoke;
-    width: 70%;
-    height: 40%;
+    width: 50vw;
+    max-width: 50%;
+    height: 3vh;
     border-radius: 10px;
 }
 
@@ -52,8 +128,9 @@ body {
 }
 
 .contenido {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    height: 95vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -75,7 +152,7 @@ body {
     font-weight: 600;
     font-size: 18px;
     padding: 0 18px;
-    line-height: 50px;
+    line-height: 30px;
     text-align: center;
     text-decoration: none;
     user-select: none;
